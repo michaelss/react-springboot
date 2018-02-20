@@ -25,7 +25,7 @@ public class FuncionarioController {
 	
 	@GetMapping("/{nome}")
 	List<String> olah(@PathVariable String nome) {
-		return Arrays.asList("Michael", "Robson", "Franck");
+		return Arrays.asList("Michael", "Robson", "Franck", nome);
 	}
 	
 	@GetMapping
